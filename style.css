@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(253, 243, 237);
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+}
+.menu {
+    background-color: rgb(255, 207, 175);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    width: 100%;
+}
+.link {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
+    color: #000;
+}
+.heading, .booking, .photo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+h1 {
+    font-size: 50px;
+}
+.parOne {
+    font-size: 30px;
+}
+.button, .contacts, .map {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.btn {
+    font-size: 25px;
+    background-color: rgb(255, 166, 107);
+    border: none;
+    padding: 10px 60px;
+    font-family: 'Playfair Display', serif;
+}
+.btn:hover {
+    background-color: rgb(255, 207, 175);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    background-color: rgb(255, 207, 175);
+    font-size: 20px;
+}
+.about {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.parTwo {
+    align-self: center;
+    padding: 5px;
+    font-size: 20px;
+}
+.blockOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 300px;
+}
+.blockTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    height: 450px;
+    width: 300px;
+}
+.blockTree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(5.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 300px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+}
+@media all and (max-width: 500px) {
+    .btnOne {
+        flex: 1;
+    }
+    .about {
+        flex-wrap: wrap;
+    }
+    .link {
+        font-size: 20px;
+    }
+}
+@media all and (max-width: 800px) {
+    .btnOne {
+        flex: 1;
+    }
+    .about {
+        flex-wrap: wrap;
+    }
+}
