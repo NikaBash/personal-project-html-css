@@ -99,12 +99,6 @@ a {
     font-size: 40px;
 }
 @media all and (max-width: 500px) {
-    .btnOne {
-        flex: 1;
-    }
-    .about {
-        flex-wrap: wrap;
-    }
     .link {
         font-size: 20px;
     }
