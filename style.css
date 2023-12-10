@@ -102,6 +102,9 @@ a {
     .link {
         font-size: 20px;
     }
+    h1 {
+        font-size: 30px;
+    }
 }
 @media all and (max-width: 800px) {
     .btnOne {
